@@ -10,6 +10,8 @@ function play() {
     let player2 = inputPlayer2.value;
     if (player1 === "" || player2 === "") {
         alert("Give Names for Players");
+        inputPlayer1.value = "";
+        inputPlayer2.value = "";
     } else {
         player1Name.innerHTML = player1;
         player2Name.innerHTML = player2;
